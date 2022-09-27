@@ -1,5 +1,5 @@
 # Help-Me
-1) An Open Source Web Application which intends to help people by Connecting People to Hospitals in One click*
+1) An Open Source Web Application which intends to help the society by Connecting People to Hospitals in One click*
 
 2) Users will click on an Emergency button which will then take the user to a form (textbox) where he will fill the details ( for eg:- if there is an accident near the user, then he can send those details).
 
