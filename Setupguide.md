@@ -5,7 +5,7 @@
 ###### https://code.visualstudio.com
 ###### Click on the link for downloading the visual studio code.
 ###### Click on download for windows. 
-       (https://user-images.githubusercontent.com/103527274/194033560-a79a86d4-e773-4875-96da-b9495698cb84.png)
+       https://user-images.githubusercontent.com/103527274/194033560-a79a86d4-e773-4875-96da-b9495698cb84.png
 ###### Run the downloaded .exe file on the installer.
 ###### Accept the agreement and mark check in all the boxes.
 ###### Click on install.
