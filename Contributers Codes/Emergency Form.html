@@ -1,18 +1,25 @@
 <html>
     <head>
         <title>Emergency Form | HELP ME</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <form action="/backend.php">
-            <label for="img">Details:</label>
-            <input type="text" id="textBox1" name="textBox1">
-            <br>
-            <br>
-            <label for="img">Select image:</label>
-            <input type="file" id="img" name="img" accept="image/*">
-            <br>
-            <br>
-            <input type="submit">
+        <form action="/backend.php" id="form">
+            <div id="firstRow">
+                <label for="location">Location:</label>
+                <input type="text" name="location" id="location" placeholder="Enter the location">
+            </div>
+            <div id="textareaRow">
+                <label for="textBox1">Details:</label>
+                <textarea name="textBox1" id="textBox1" cols="30" rows="10" placeholder="Enter the relevant details..."></textarea>
+            </div>
+            <div id="imgRow">
+                <label for="img">Select image:</label>
+                <input type="file" id="img" name="img" accept="image/*">
+            </div>
+            <div>
+                <input type="submit">
+            </div>
           </form>
     </body>
 </html>

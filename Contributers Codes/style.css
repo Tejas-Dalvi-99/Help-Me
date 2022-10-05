@@ -1,0 +1,81 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#form
+{
+    position: absolute;
+}
+
+#firstRow
+{
+    display: flex;
+    border-bottom: 2px solid purple;
+}
+
+#firstRow input
+{
+    width: 100%;
+}
+
+#form>div
+{
+    margin: 7px;
+}
+
+label
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+label,input,textarea
+{
+    padding: 0px 5px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    background: none;
+}
+
+textarea
+{
+    width: 100%;
+    border: 0px 2px 2px 0px;
+    border-color: purple;
+    border-style: solid;
+}
+
+#img
+{
+    background: none;
+}
+
+input[type="submit"]
+{
+    border: 2px solid purple;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+textarea:hover,input[type="submit"]:hover,#firstRow:hover,#imgRow:hover
+{
+    border-color: white;
+}
+
+#textareaRow:hover label,input[type="submit"]:hover label,#firstRow:hover label,#imgRow:hover label
+{
+    color: purple;
+}
