@@ -6,3 +6,41 @@
     
     
 }
+
+button a
+{
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+}
+
+button a:hover
+{
+    text-decoration: none;
+    color: red;
+}
+
+.row
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.row img
+{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+@media only screen and (max-width: 500px)
+{
+    .row img
+    {
+        display: block;
+        width: 95vw;
+    }
+}
