@@ -7,12 +7,18 @@
     
 }
 
+.container button
+{
+    padding: 0px;
+}
+
 button a
 {
     color: white;
     text-decoration: none;
     width: 100%;
     display: block;
+    padding: 10px 16px;
 }
 
 button a:hover
