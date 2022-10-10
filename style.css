@@ -1,52 +1,43 @@
-.Button {   
-    /* position:relative; left:730px; top:400px;  */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-    
+.Button {
+  /* position:relative; left:730px; top:400px;  */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.container button
-{
-    padding: 0px;
+.container button {
+  padding: 0px;
 }
 
-button a
-{
-    color: white;
-    text-decoration: none;
-    width: 100%;
+button a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 10px 16px;
+}
+
+button a:hover {
+  text-decoration: none;
+  color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row img {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .row img {
     display: block;
-    padding: 10px 16px;
-}
-
-button a:hover
-{
-    text-decoration: none;
-    color: red;
-}
-
-.row
-{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
-.row img
-{
-    padding: 1rem;
-    margin: 1rem;
-}
-
-@media only screen and (max-width: 500px)
-{
-    .row img
-    {
-        display: block;
-        width: 95vw;
-    }
+    width: 95vw;
+  }
 }

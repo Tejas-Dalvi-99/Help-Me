@@ -11,6 +11,7 @@
   <style>
     body {
       background-color: #68adee;
+      font-family: 'Courier New', Courier, monospace;
     }
 
     .navbar {
@@ -20,11 +21,44 @@
 
     .navbar-brand {
       font-weight: 800;
+      font-size: 29px;
+
     }
 
     .container-fluid {
       display: flex;
       justify-content: space-between;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      text-align: center;
+    }
+
+    .btnz {
+      background-color: rgb(68, 150, 249);
+      width: 1020px;
+      border-radius: 20px;
+      color: black;
+      font-weight: 600;
+      font-size: large;
+      align-self: center;
+    }
+
+    li {
+      font-size: 20px;
+    }
+
+
+    .head,
+    .subhead,
+    .sub,
+    .subPart,
+    li {
+      font-weight: 600;
     }
   </style>
   <link rel="stylesheet" href="style.css">
@@ -49,14 +83,18 @@
   </nav>
 
   <div class="container">
-    <h1>Helpme the situation is Critical </h1>
-    <h3>click on the Emergency Help button for instant medical support </h3>
-    <button type="button" class="btn btn-primary btn-lg btn-block"><a href="Emergency Form.html">Emergency
-        Help</a></button>
-    <h3>Why we help others?</h3>
-    <h4>1.because thery are in need </h4>
-    <h4>2.you can save anyones life </h4>
-    <h4>3.one help is edual to one life </h4>
+    <div>
+      <h1 class="head">Helpme the situation is Critical </h1>
+      <h3 class="subhead">click on the Emergency Help button for instant medical support </h3>
+      <!-- <button type="button" class="btn btn-primary btn-lg btn-block"><a href="Emergency Form.html">Emergency
+        Help</a></button> -->
+      <button type="button" class="btnz"><a href="Emergency Form.html">Emergency
+          Help</a></button>
+      <h3 class="sub">Why we help others?</h3>
+      <h4 class="subPart">1.because thery are in need </h4>
+      <h4 class="subPart">2.you can save anyones life </h4>
+      <h4 class="subPart">3.one help is edual to one life </h4>
+    </div>
   </div>
 
   <div class="row">
