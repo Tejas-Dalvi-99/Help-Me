@@ -1,24 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Helpme</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js"></script>
-    <style>
-      body {background-color: #68adee;}
-      .navbar {background-color: bisque; margin: 15px;}
-    </style>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-dark">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">HelpMe</a>
-        </div>
+
+<head>
+  <title>Helpme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+  <style>
+    body {
+      background-color: #68adee;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    .navbar {
+      background-color: black;
+      margin: 15px;
+    }
+
+    .navbar-brand {
+      font-weight: 800;
+      font-size: 29px;
+
+    }
+
+    .container-fluid {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      text-align: center;
+    }
+
+    .btnz {
+      background-color: red;
+      width:250px;
+      height:250px;
+      border-radius: 50%;
+      color: white;
+      font-weight: 600;
+      font-size: 35px ;
+      align-self: center;
+      text-decoration: none;
+     
+    }
+    .btnz:hover{
+      color: black;
+    }
+   .btnz a:hover{
+    text-decoration: none;
+    color:white;
+   }
+    li {
+      font-size: 20px;
+    }
+
+
+    .head,
+    .subhead,
+    .sub,
+    .subPart,
+    li {
+      font-weight: 600;
+    }
+  </style>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">HelpMe</a>
+      </div>
+      <div>
         <ul class="nav navbar-nav">
           <li class="active"><a href="#">Home</a></li>
           <li><a href="#">Page 1</a></li>
@@ -26,22 +87,33 @@
           <li><a href="#">Page 3</a></li>
         </ul>
       </div>
-    </nav>
 
-    <div class="container">
-      <h1>Helpme the situation is Critical </h1>
-      <h3>click on the Emergency Help button for instant medical support </h3>
-      <button type="button" class="btn btn-primary btn-lg btn-block"><a href="Emergency Form.html">Emergency Help</a></button>
-      <h3>Why we help others?</h3>
-      <h4>1.because thery are in need </h4>
-      <h4>2.you can save anyones life </h4>
-      <h4>3.one help is edual to one life </h4>
     </div>
+  </nav>
 
-    <div class="row">
-      <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_872576234_379413.jpg" style="width:450px;height:250px;"class="col-sm-4" style="background-color:lavender;">
-      <img src="https://cdn.langeek.co/photo/22883/original/" style="width:450px;height:250px;" div class="col-sm-4" style="background-color:lavenderblush;">
-      <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2019/12/featured_ask_help_istock-1.jpg"style="width:450px;height:250px;"div class="col-sm-4" style="background-color:lavenderblush;">
+  <div class="container">
+    <div>
+      <h1 class="head">Helpme the situation is Critical </h1>
+      <h3 class="subhead">click on the Emergency Help button for instant medical support </h3>
+      <!-- <button type="button" class="btn btn-primary btn-lg btn-block"><a href="Emergency Form.html">Emergency
+        Help</a></button> -->
+      <button type="button" class="btnz"><a href="Emergency Form.html">Emergency
+          Help</a></button>
+      <h3 class="sub">Why we help others?</h3>
+      <h4 class="subPart">1.because thery are in need </h4>
+      <h4 class="subPart">2.you can save anyones life </h4>
+      <h4 class="subPart">3.one help is edual to one life </h4>
     </div>
-  </body>
+  </div>
+
+  <div class="row">
+    <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_872576234_379413.jpg"
+      style="width:450px;height:250px;" class="col-sm-4" style="background-color:lavender;">
+    <img src="https://cdn.langeek.co/photo/22883/original/" style="width:450px;height:250px;" div class="col-sm-4"
+      style="background-color:lavenderblush;">
+    <img src="https://ideas.ted.com/wp-content/uploads/sites/3/2019/12/featured_ask_help_istock-1.jpg"
+      style="width:450px;height:250px;" div class="col-sm-4" style="background-color:lavenderblush;">
+  </div>
+</body>
+
 </html>
