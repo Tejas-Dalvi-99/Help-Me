@@ -16,10 +16,13 @@ button a {
   display: block;
   padding: 10px 16px;
 }
-
-button a:hover {
-  text-decoration: none;
-  color: red;
+ 
+button:hover{
+  color: black;
+  background-color: darkred;
+}
+button{
+  border:none;
 }
 
 .row {
