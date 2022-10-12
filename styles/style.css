@@ -1,0 +1,105 @@
+body {
+  background-color: #68adee;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+  background-color: black;
+  margin: 15px;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-size: 29px;
+
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-align: center;
+}
+
+.btnz {
+  background-color: red;
+  width:250px;
+  height:250px;
+  border-radius: 50%;
+  color: white;
+  font-weight: 600;
+  font-size: 35px ;
+  align-self: center;
+  text-decoration: none;
+ 
+}
+.btnz:hover{
+  color: black;
+}
+.btnz a:hover{
+text-decoration: none;
+color:white;
+}
+li {
+  font-size: 20px;
+}
+
+
+.head,
+.subhead,
+.sub,
+.subPart,
+li {
+  font-weight: 600;
+}
+.Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container button {
+  padding: 0px;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 10px 16px;
+}
+ 
+button:hover{
+  color: black;
+  background-color: darkred;
+}
+button{
+  border:none;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.row img {
+  padding: 1rem;
+  margin: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+  .row img {
+    display: block;
+    width: 95vw;
+  }
+}
