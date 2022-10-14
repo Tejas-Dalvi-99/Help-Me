@@ -6,6 +6,10 @@
   background-color: #68adee;
   font-family: 'Courier New', Courier, monospace;
   padding: 0 1rem;
+  background-image: url("https://static01.nyt.com/images/2020/03/25/smarter-living/00sl-coronaanxiety-print/00sl-coronaanxiety-videoSixteenByNineJumbo1600.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .navbar {
