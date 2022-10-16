@@ -1,57 +1,43 @@
 <html>
   <head>
     <title>Emergency Form | HELP ME</title>
-    <style>
-      body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-family: Georgia, "Times New Roman", Times, serif;
-      }
-      input[type="text"],
-      select {
-        width: 100%;
-        padding: 12px 20px;
-        margin: 8px 0;
-        display: inline-block;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        box-sizing: border-box;
-      }
 
-      input[type="submit"] {
-        width: 100%;
-        background-color: rgb(89, 89, 179);
-        color: white;
-        padding: 14px 20px;
-        margin: 8px 0;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-      }
 
-      input[type="submit"]:hover {
-        background-color: rgb(87, 87, 209);
-      }
-
-      div {
-        border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 40px;
-        max-width: 450px;
-      }
-      label,
-      input[type="submit"] {
-        font-size: large;
-        font-weight: 600;
-      }
-    </style>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.6.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="emergency.css">
   </head>
   <body>
+
+    <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">HelpMe</a>
+      </div>
+      <div>
+        <ul class="nav navbar-nav">
+          <li class="active" ><a href="/">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
     <div class="emergency-container">
+
+        <div class="form-container">
+      <form action="/backend.php">
+        <label for="img">Details:</label>
+        <input type="text" id="textBox1" name="textBox1" />
       <form action="backend.php" method="post" enctype="multipart/form-data">
         <label for="details">Details:</label>
         <input type="text" id="details" name="details" />
+
         <br />
         <br />
         <label for="img">Select image:</label>
@@ -60,6 +46,8 @@
         <br />
         <input type="submit" name="submit" />
       </form>
+        </div>
+
     </div>
   </body>
 </html>
