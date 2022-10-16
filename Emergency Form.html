@@ -29,17 +29,22 @@
   </nav>
 
     <div class="emergency-container">
+
         <div class="form-container">
       <form action="/backend.php">
         <label for="img">Details:</label>
         <input type="text" id="textBox1" name="textBox1" />
+      <form action="backend.php" method="post" enctype="multipart/form-data">
+        <label for="details">Details:</label>
+        <input type="text" id="details" name="details" />
+
         <br />
         <br />
         <label for="img">Select image:</label>
-        <input type="file" id="img" name="img" accept="image/*" />
+        <input type="file" id="img" name="file" accept="image/*" />
         <br />
         <br />
-        <input type="submit" />
+        <input type="submit" name="submit" />
       </form>
         </div>
 
