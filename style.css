@@ -33,8 +33,7 @@ body {
 
 .row-imgs img {
   height: 250px;
-  max-width: 100%;
-  background-color: lavenderblush;
+    max-width: 450px;
 }
 
 .btnz {
@@ -58,7 +57,16 @@ body {
 li {
   font-size: 20px;
 }
-
+.head{
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 50px;
+}
+.head2{
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 30px;
+}
 .head,
 .subhead,
 .sub,
