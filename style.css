@@ -4,6 +4,10 @@
 }
 body {
   background-color: #68adee;
+  background-image: url("./uploads/pexels-karolina-grabowska-4386466.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "Courier New", Courier, monospace;
   /* padding: 0 1rem; */
 }
