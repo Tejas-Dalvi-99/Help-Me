@@ -32,16 +32,16 @@
 
         <div class="form-container">
       <form action="/backend.php">
-        <label for="img">Details:</label>
-        <input type="text" id="textBox1" name="textBox1" />
+        <label for="img"><span style="color:#ff0000">*</span> Location:</label>
+        <input type="text" id="textBox1" name="textBox1" required/>
       <form action="backend.php" method="post" enctype="multipart/form-data">
-        <label for="details">Details:</label>
-        <input type="text" id="details" name="details" />
+        <label for="details"><span style="color:#ff0000">*</span> Details:</label>
+        <input type="text" id="details" name="details" required />
 
         <br />
         <br />
-        <label for="img">Select image:</label>
-        <input type="file" id="img" name="file" accept="image/*" />
+        <label for="img"><span style="color:#ff0000">*</span> Select image or video:</label>
+        <input type="file" id="img" name="file" accept="image/*, video/*" required/>
         <br />
         <br />
         <input type="submit" name="submit" />
